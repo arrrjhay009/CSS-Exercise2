@@ -8,6 +8,7 @@ body {
     background-color: #749BC2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #f5f5f5;
+    border-top-right-radius: 10px;
 }
 
 .header {
@@ -31,4 +32,5 @@ body {
     max-width: 350px;
     height: 400px;
     object-fit: cover;
+    border-radius: 10px;
 }
