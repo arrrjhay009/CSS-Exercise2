@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #749BC2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f5f5;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #4682A9;
+}
+
+.gallery {
+    background-color: #F6F4EB;
+    padding: 20px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 400px;
+    object-fit: cover;
+}
