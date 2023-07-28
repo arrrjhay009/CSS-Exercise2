@@ -17,6 +17,15 @@ body {
     border-bottom: 5px solid #4682A9;
 }
 
+.header img {
+    width: 500px;
+    object-fit: cover;
+}
+
+h2 {
+    font-style: italic;
+}
+
 .gallery {
     background-color: #F6F4EB;
     padding: 20px 0;
@@ -33,4 +42,10 @@ body {
     height: 400px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+footer {
+    height: 15vh;
+    border-top: 5px solid #4682A9;
+    background-color: #749BC2;
 }
